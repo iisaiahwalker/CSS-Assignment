@@ -1,0 +1,27 @@
+/* mystyles.css */
+
+/* H1 Styles */
+h1 {
+    font-family: Verdana, Helvetica, sans-serif;
+    color: darkblue;
+    text-align: center;
+    border: 3px solid navy;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Body Background */
+body {
+    background-color: #ffe5e5;
+    background-image: url('background.jpg'); /* Optional, replace with a valid image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}

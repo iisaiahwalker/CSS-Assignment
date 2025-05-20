@@ -1,0 +1,14 @@
+body {
+  background-color: hsla(200, 100%, 90%, 1); /* light blue */
+  color: hsla(200, 100%, 20%, 1); /* dark blue text */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  color: hsla(200, 100%, 30%, 1);
+  border: 3px dashed hsla(200, 100%, 50%, 1);
+}
+
+p, td {
+  color: hsla(200, 100%, 20%, 1);
+}

@@ -1,0 +1,21 @@
+body {
+  background-color: #fff8f0; /* warm beige */
+  color: #003366; /* navy text */
+  font-family: 'Georgia', serif;
+}
+
+h1 {
+  color: #ff6600; /* orange (complement to blue) */
+  border: 4px solid #003366;
+  border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #ff6600;
+}
+
+td {
+  border: 1px solid #003366;
+  padding: 8px;
+}

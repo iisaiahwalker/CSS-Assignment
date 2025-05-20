@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Isaiah's Page</title>
+  <link rel="stylesheet" href="mystyles.css" id="mainStyle">
+
+  <style>
+    /* Embedded CSS - Section C */
+    h2 {
+      font-family: "Arial", "Helvetica Bold", sans-serif;
+      color: darkgreen;
+    }
+
+    img {
+      border: 2in solid teal;
+    }
+
+    .image-gallery img {
+      background-color: lightgray;
+      border: 5px solid darkgray;
+      margin: 5px;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    img.one {
+      height: auto;
+      width: auto;
+    }
+
+    img.two {
+      height: 50%;
+      width: 50%;
+    }
+  </style>
+
+  <script>
+    function switchStyle(theme) {
+      document.getElementById('mainStyle').href = theme;
+    }
+  </script>
+</head>
+<body>
+
+<header>
+  <h1 style="text-align:center;">Isaiah's Page</h1>
+</header>
+
+<nav style="text-align:center; margin-bottom: 20px;">
+  <button onclick="switchStyle('mystyles.css')">Default Style</button>
+  <button onclick="switchStyle('theme1.css')">Monochromatic Theme</button>
+  <button onclick="switchStyle('theme2.css')">Complementary Theme</button>
+</nav>
+
+<main>
+  <p style="text-align:center;">
+    <img src="Red flower.jpg" alt="Red Flower" class="one">
+  </p>
+
+  <h2><a name="favorites">My Favorites</a></h2>
+  <p>
+    Food: Fried Chicken<br>
+    Sport: <span style="color:green;">Basketball</span><br>
+    Color: Blue<br>
+    Movie: Boyz N The Hood<br>
+    Web sites: <a href="https://www.pvamu.edu/">Prairie View A&M</a>
+  </p>
+
+  <h2>News Flash</h2>
+  <p>My aunt is getting married in October</p>
+
+  <h2 style="color:darkorange;">Quote of the Day</h2> <!-- inline CSS h2 color -->
+  <p>The best things in life are free, but it costs a lot of time and money before you find this out</p>
+
+  <p>Go to my <a href="#favorites">list</a></p>
+
+  <h2>My Schedule</h2>
+  <table style="border:5px solid navy; width:75%; text-align:center;" cellpadding="5">
+    <tr style="background-color:#333333; color:#ffffff;">
+      <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th>
+    </tr>
+    <tr style="background-color:#e0e0e0;">
+      <td>Class at 11</td><td>Class at 12</td><td>Class at 10</td><td>Class at 9</td>
+    </tr>
+    <tr style="background-color:#c0c0c0;">
+      <td style="background-color:blue; color:white;">Work</td><td>Study</td>
+      <td style="background-color:blue; color:white;">Work</td><td>Study</td>
+    </tr>
+  </table>
+
+  <h2>Hints for Making Good Grades in Class</h2>
+  <ol>
+    <li>Read the chapter</li>
+    <li>Work the exercises</li>
+    <li>Work the assignments</li>
+  </ol>
+
+  <h2>Some Things I Have Found Helpful for School</h2>
+  <ul>
+    <li>Purchase your books by the first day of class</li>
+    <li>Purchase school supplies as soon as possible</li>
+    <li>Find a good place to study</li>
+  </ul>
+
+  <div class="image-gallery">
+    <h2>Favorite Foods</h2>
+    <img src="food1.jpg" alt="Food 1" class="two">
+    <img src="food2.jpg" alt="Food 2" class="two">
+    <img src="food3.jpg" alt="Food 3" class="two">
+  </div>
+</main>
+
+<footer style="text-align:center; padding:10px; margin-top:30px;">
+  <p><strong>Created by Isaiah</strong></p>
+</footer>
+
+</body>
+</html>
